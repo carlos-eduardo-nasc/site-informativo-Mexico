@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>México</title>
+    <link rel="icon" href="./imagens/bandeira-do-mexico.webp" type="image/gif">
+    <link rel="stylesheet" href="./css/contato.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="br">
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="Turismo.html"> Turismo </a>
+                </li>
+                <li>
+                    <a href="Culinaria.html"> Culinária </a>
+                </li>
+                <li>
+                    <a href="Contato.html"> Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+        <div class="tabelaID"><br><br>
+            <form action="entrada_dados" method="post">
+            <label for="nome">NOME:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+            <label for="email">EMAIL:</label>
+            <input type="text" id="email" name="email" placeholder="Digite seu email"><br><br>
+            <label for="telefone">TELEFONE:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone"><br><br>
+
+            <label for="estado">SELECIONE SEU ESTADO:</label>
+        <select>
+            <option value="Acre">AC</option>
+            <option value="Alagoas">AL</option>
+            <option value="Amazonas">AM</option>
+            <option value="Bahia">BA</option>
+            <option value="Ceará">CE</option>
+            <option value="Espírito Santo">ES</option>
+            <option value="Goiás">GO</option>
+            <option value="Maranhão">MA</option>
+            <option value="Mato Grosso">MT</option>
+            <option value="Mato Grosso do Sul">MS</option>
+            <option value="Minas Gerais">MG</option>
+            <option value="Pará">PA</option>
+            <option value="Paraíba">PB</option>
+            <option value="Paraná">PR</option>
+            <option value="Pernambuco">PE</option>
+            <option value="Piauí">PI</option>
+            <option value="Rio de Janeiro">RJ</option>
+            <option value="Rio Grande do Norte">RN</option>
+            <option value="Rio Grande do Sul">RS</option>
+            <option value="Rondônia">RO</option>
+            <option value="Roraima">RR</option>
+            <option value="Santa Catarina">SC</option>
+            <option value="São Paulo">SP</option>
+            <option value="Sergipe">SE</option>
+            <option value="Tocantins">TO</option>
+            <option value="Distrito Federal">DF</option>
+        </select>
+            <br> <br>
+            Você visitaria o México? <br>
+                <input type="radio" name="opinião" value="sim" checked> SIM
+                <input type="radio" name="opinião" value="não" checked> NÃO
+            <br> <br>
+            As informações em nosso site <br>foram utéis? <br> 
+                <input class="input" type="checkbox" name="opinião" value="sim"> SIM    
+                <input type="checkbox" name="opinião" value="não"> NÃO
+                <br> <br>
+                <textarea id="textarea" value="dicas" rows="1" cols="5" placeholder="Deixe seu comentário" maxlength="50"></textarea>
+                <br><br>
+                <input type="submit" value="enviar" onclick="alert('Dados enviados!')">
+                <input type="reset" value="limpar">
+            <br><br>
+            <br>
+
+        </center>
+        </form>
+        <br><br><br><br>
+        <hr>
+        </div>
+        <footer>
+            <center>
+                <h4>&copy;TODOS OS DIREITOS RESERVADOS</h4>
+                2025
+            </center>
+        </footer>
+</body>
+</html>
