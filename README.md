@@ -1,1 +1,1 @@
-# site-informativo-Mexico
+projeto acadêmico desenvolvido em dupla.
